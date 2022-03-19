@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto"; 
+    background: url("https://landing.zytheme.com/siena/assets/images/background/bg-1.png");  
+    background-position: 0;
+}
+
+header {
+      display: flex;
+      margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.container {
+    padding: 0px 60px;
+}
+
+nav  {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav ul  {
+    display: flex;
+    padding: 0px;
+}
+
+nav ul li  {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #6262A0;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #664FFA;
+}
+
+h1 {
+    color: #6262A0;
+    font-size: 4em;
+    font-weight: 400;
+    margin: 40px 0px 25px;
+}
+
+h2 {
+    color: #6262A0;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 40px 0px 25px;
+    text-align: center;    
+}
+
+h3 {
+    color: #6262B5;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 40px 0px 25px;
+    text-align: center;  
+    padding: 20px 0;;  
+}
+
+h4 {
+    color: #6262A0;
+    font-size: 1.4em;
+    font-weight: 400;
+    padding: 20px 0;
+    display: block;
+    margin: 0px;
+    text-align: center;
+}
+
+p {
+    color: #ababc7; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 33px;
+}
+
+p span{
+    font-size: 0.8em;
+    
+}
+
+p.center {
+    text-align: center;
+    
+}
+
+.form-container {
+    /*padding: 40px;*/
+}
+
+.field-form label {
+    color: #6262A0;
+    font-size: 0.95;
+    display:block;
+    margin: 5px 0px;    
+}
+
+.field-form input {
+    background-color: #f7f6ff;
+    color: #222;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1.05em;
+    padding: 6px 6px 6px, 12px;
+    outline: none;
+    width: 100%;
+    margin: bottom 4px;
+
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #664ffa;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 10px ;
+    margin: 10px 0px;
+    font-size: 0.79em;
+    font-weight: 700;
+}
+
+
+.btn-primary:hover {
+    background-color: #3b1df9;
+    cursor: pointer; 
+}
+
+article {
+    margin-top: 160px;
+    display: flex;   
+}
+
+.content-slide1 {
+   flex:65; 
+   padding: 0 95px;
+   margin-left: 60px;
+   max-width: 700px;
+
+}
+
+#box-trial {
+    flex:30; 
+    background-color: #fff;
+    padding: 40px 40px;
+    box-shadow: 4px 9px 7px 0px rgba(224,217,217,0.75);
+-webkit-box-shadow: 4px 9px 7px 0px rgba(224,217,217,0.75);
+-moz-box-shadow: 4px 9px 7px 0px rgba(224,217,217,0.75);  
+margin-right: 40px; 
+max-width: 400px;
+height: auto;
+}
+
+.field-form{
+ padding: 15px 6px; 
+}
+
+input, select {
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.titre1 {
+    margin-top: 150px;
+   display: block;
+   text-align: center!important;
+   width: 550px;
+   margin-left: 30%;
+}
+.row {
+     display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 60px;
+}
+
+.image-paneau  img {
+    margin: auto;
+    display: block;
+}
+
+.info-content {
+margin-top: 30px;
+}
+
